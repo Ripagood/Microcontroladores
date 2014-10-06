@@ -1,0 +1,53 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>Z:\home\ventura\Documents\Talleres\Talleres7</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <polling><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>9</LINE></polling>
+  <retardo10ms><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>196</LINE></retardo10ms>
+  <polling1><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>15</LINE></polling1>
+  <continua><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>21</LINE></continua>
+  <otro50><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>29</LINE></otro50>
+  <otro10><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>31</LINE></otro10>
+  <espera><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>44</LINE></espera>
+  <pulso><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>151</LINE></pulso>
+  <fin1><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>51</LINE></fin1>
+  <inicio2><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>55</LINE></inicio2>
+  <polling3><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>63</LINE></polling3>
+  <polling31><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>69</LINE></polling31>
+  <continua3><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>75</LINE></continua3>
+  <otro250><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>82</LINE></otro250>
+  <retardo2s><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>180</LINE></retardo2s>
+  <polling2><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>93</LINE></polling2>
+  <polling21><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>99</LINE></polling21>
+  <continua2><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>105</LINE></continua2>
+  <compara><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>116</LINE></compara>
+  <mayor><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>123</LINE></mayor>
+  <finC><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>127</LINE></finC>
+  <signal50ms><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>135</LINE></signal50ms>
+  <retardo200ms><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>159</LINE></retardo200ms>
+  <retardo300ms><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>170</LINE></retardo300ms>
+  <otro200><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>162</LINE></otro200>
+  <otro300><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>173</LINE></otro300>
+  <retardo1s><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>185</LINE></retardo1s>
+  <otro1s><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>188</LINE></otro1s>
+  <ciclo1><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>200</LINE></ciclo1>
+  <ciclo><FILE>Z:\home\ventura\Documents\Talleres\Talleres7\Talleres7.asm</FILE><LINE>201</LINE></ciclo>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,25 @@
+ 
+1-) Se quiere diseñar con un microcontrolador ATmega16 un equipo que entrega al procesador un valor digital de 8 bits, proveniente de un sistema de posicionamiento 
+de una antena. A partir de la opresión de una tecla, el procesador debe leer un valor digital cada  2 seg  y almacenarlo en SRAM  hasta completar 500 muestras.
+
+Cuando se hayan completado la adquisición de las 500 muestras se debe encender un led de aviso y generar por una línea de puerto un tren de pulsos de 200ms en “0” 
+y 300ms en “1”. El tren de pulsos se generará hasta que se reciba una señal activa en “0” proveniente de una computadora que indicará que finalice el tren de pulsos 
+y se apague el led.
+
+1- Realice el diseño completo del Hardware del sistema. 
+
+2- Realice el diseño completo del software. Utilice la rutina de retardo de 10ms para  TODOS los requerimientos de tiempo del sistema. (frec_reloj=8Mhz).
+__________________________________________________________________
+
+2-) Un sistema  basado en ATmega16 debe monitorear una señal proveniente de un sistema de instrumentación. La señal es de 8 bits y se deberán obtener 250 
+muestras de la señal cada 5seg cada una y almacenarlos en memoria  SRAM. El sistema dispone de las siguientes teclas de comandos:
+
+ INICIO: Se debe iniciar la medición y almacenamiento de las muestras. Al finalizar la captura se debe encender un led de aviso al usuario.
+
+VALIDACIÓN: En esta opción el sistema debe comparar las muestras de la señal adquirida con un patrón de 8 bits almacenado en ROM en la dirección 200h.
+ Si el 80% o más de las muestras adquiridas es mayor o igual que el patrón se debe enviar una señal de validación activa en “0” a una computadora central.
+ Esta señal debe tener una duración de 50ms. De lo contrario se debe activar un buzzer durante 5seg. En cualquier caso el sistema debe quedar listo para
+ una nueva medición.
+
+1 Realice el diseño completo del Hardware del sistema. 
+2 Realice el diseño completo del software. Utilice la rutina de retardo de 10ms para  TODOS los requerimientos de tiempo del sistema. (frec_reloj=8Mhz).
