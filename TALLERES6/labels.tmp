@@ -1,0 +1,45 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>Z:\home\ventura\Documents\Talleres\TALLERES6</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <cien><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>17</LINE></cien>
+  <retardo200ms><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>240</LINE></retardo200ms>
+  <ej2><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>35</LINE></ej2>
+  <retardo1s><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>228</LINE></retardo1s>
+  <otro15><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>54</LINE></otro15>
+  <negInc><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>62</LINE></negInc>
+  <posInc><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>59</LINE></posInc>
+  <cc><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>64</LINE></cc>
+  <prendePB0><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>75</LINE></prendePB0>
+  <prendePB7><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>70</LINE></prendePB7>
+  <finEj3><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>79</LINE></finEj3>
+  <prendePC0><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>100</LINE></prendePC0>
+  <prendePC1><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>94</LINE></prendePC1>
+  <salEj4><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>105</LINE></salEj4>
+  <retardo10ms><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>253</LINE></retardo10ms>
+  <eje5><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>113</LINE></eje5>
+  <mandaN><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>121</LINE></mandaN>
+  <mandaY><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>131</LINE></mandaY>
+  <unos><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>231</LINE></unos>
+  <dos><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>243</LINE></dos>
+  <ciclo1><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>257</LINE></ciclo1>
+  <ciclo><FILE>Z:\home\ventura\Documents\Talleres\TALLERES6\TALLERES6.asm</FILE><LINE>258</LINE></ciclo>
+ </LABELS>
+</ASSEMBLER_INFO>

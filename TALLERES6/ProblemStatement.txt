@@ -1,0 +1,21 @@
+ 
+1- Programa que lea el puerto A del ATmega16, 100 veces  cada 200ms y los valores los guarde en SRAM externa 
+a partir de la dirección 300h.
+
+2- Programa que  lea una tabla en ROM de 100 valores a partir de la 200h  y  saque los valores por el puerto
+C en intervalos de 1 segundo              
+
+3-Realice un programa que cuente la cantidad de valores positivos y negativos de una lista de 15 elementos 
+almacenada en SRAM a partir de la dirección 100h. Si la cantidad de valores positivos es mayor o igual que
+la de negativos se debe prender un led conectado al puerto PB0, de lo contrario, encender un led en el 
+puerto PB7.  
+
+
+4- Programa que debe leer el puerto C y comparar el valor leído con un valor de referencia almacenado en ROM
+en la dirección 300h.  Si ambos valores coinciden se debe enviar un “0” por una PC0 hacia un sistema de control
+durante 50ms, de lo contrario encender un led de error conectado a PC1 durante  3segundos.
+
+5- Realice un programa que lea el estado de un switch conectado a PB2. Si el switch es “0” enviar el carácter 
+‘N’ por el puerto C y encender un led conectado a PB0 durante 3 segundos. Si el switch es “1 enviar el carácter 
+‘Y’ por el puerto C y enviar una señal activo en “0” por PB1 durante 100ms.El programa debe permanecer leyendo
+el switch continuamente.
