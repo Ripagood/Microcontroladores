@@ -1,0 +1,53 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>Z:\home\ventura\Documents\Talleres\Talleres8_1</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <wait><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>18</LINE></wait>
+  <load100><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>32</LINE></load100>
+  <load101><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>27</LINE></load101>
+  <cc><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>36</LINE></cc>
+  <otro10><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>42</LINE></otro10>
+  <otro100><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>44</LINE></otro100>
+  <chequeo><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>200</LINE></chequeo>
+  <Ejercicio4><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>65</LINE></Ejercicio4>
+  <polling><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>74</LINE></polling>
+  <retardo10ms><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>246</LINE></retardo10ms>
+  <polling1><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>80</LINE></polling1>
+  <continua><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>85</LINE></continua>
+  <manda><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>123</LINE></manda>
+  <validacion><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>96</LINE></validacion>
+  <mandaOtro><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>103</LINE></mandaOtro>
+  <led><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>115</LINE></led>
+  <otro100_2><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>128</LINE></otro100_2>
+  <otro200><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>130</LINE></otro200>
+  <retardo500ms><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>182</LINE></retardo500ms>
+  <otro500ms><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>185</LINE></otro500ms>
+  <retardo100ms><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>215</LINE></retardo100ms>
+  <abreSalida><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>207</LINE></abreSalida>
+  <abreEntrada><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>203</LINE></abreEntrada>
+  <otro100ms><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>218</LINE></otro100ms>
+  <retardo1s><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>225</LINE></retardo1s>
+  <otro1s><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>228</LINE></otro1s>
+  <retardo5s><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>235</LINE></retardo5s>
+  <otro5s><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>238</LINE></otro5s>
+  <ciclo1><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>250</LINE></ciclo1>
+  <ciclo><FILE>Z:\home\ventura\Documents\Talleres\Talleres8_1\Talleres8_1.asm</FILE><LINE>251</LINE></ciclo>
+ </LABELS>
+</ASSEMBLER_INFO>
