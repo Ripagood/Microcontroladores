@@ -6,7 +6,11 @@ Microcontroladores
 Talleres de Microcontroladores para el ATmega16, el codigo se entrega como esta y es responsabilidad de cada 
 uno verificar su correcto funcionamiento por simulación. Estos archivos estan protegidos por GNU GPL V 2.0
 
-El creador no se hace responsable por ningún efecto negativo, solo los positivos.
+No me hago responsable por ATmega16's quemados, prácticas fallidas o cualquier efecto nocivo que se pudiera
+presentar. Por el contrario, me adjudico cualquier efecto positivo que puedas llegar a tener por el solo hecho
+de ver el código fuente de los programas.
+
+xxxXXXxxx  UTILÍCESE BAJO SU PROPIO RIESGO xxxXXXxxx
 
 
 
