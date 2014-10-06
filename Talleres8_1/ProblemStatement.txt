@@ -1,0 +1,53 @@
+3-Un sistema basado en ATmega16 debe medir presión de aire en una turbina de un proceso industrial.
+
+El sistema recibe un valor digital de 8 bits equivalente a la presión, el cual será medido en intervalos 
+de 5seg a partir de que se active un interruptor ON/OFF. Los valores medidos deben ser almacenados en memoria 
+SRAM  a partir de la dirección 60h, almacenando un total de 1000 valores.
+
+El sistema realizará un control de la presión recibiendo una señal de referencia proveniente de una computadora
+central que activa en “1”  o en “0” permitirá seleccionar dos niveles de  presión de referencia almacenados 
+previamente en ROM en las direcciones 100h y 101h respectivamente. 
+
+El control se implementará de la siguiente forma:
+
+Si el valor medido de presión es mayor que la referencia, se debe abrir una válvula de salida activa en “0”, 
+manteniendo cerrada una válvula de entrada de aire.
+Si el valor de presión es menor que la referencia se debe abrir la válvula de entrada y cerrar la de salida.
+
+El proceso se realizará para cada muestra de presión y mientras el interruptor esté activado. La selección de
+la presión de referencia se realizará sólo cuando comienza un proceso de medición (activación del interruptor).
+
+El sistema debe permitir comenzar otro proceso de control cada vez que se active el interruptor.
+
+
+1- Realice el diseño completo del Hardware del sistema. 
+2- Realice el diseño completo del software. Utilice la rutina de retardo10ms, estudiada como base para  TODOS
+los requerimientos de tiempo del sistema, (frec_reloj=8Mhz).
+
+
+
+4- Un sistema basado en ATMega16 debe controlar un proceso industrial basado en patrones de voz. Se dispone 
+de un patrón de voz previamente almacenado en ROM a partir de la dirección 1000h compuesto de 2000 muestras.
+
+El sistema dispone de una tecla de comando Tx, que al oprimirse debe permitir el envío por un puerto de 8 bits 
+de todas las muestras del patrón anterior en intervalos de 500ms cada una. 
+
+El sistema debe esperar una señal de validación activa en “0” proveniente del equipo de recepción. Si en los
+2 segundos siguientes al envío del patrón no se ha recibido la señal de validación se debe volver a enviar 
+el patrón con la siguiente estructura de trama
+
+                               01111110       2000 muestras      10000001
+
+El proceso podrá repetirse hasta un máximo de 3 veces, tiempo en el cual se encenderá un led de error para
+indicar que la transmisión ha fallado. 
+
+Si por el contrario la señal de validación se recibió correctamente se debe accionar un mecanismo  activo en
+“0”, que permitirá la apertura de una válvula de escape de alto consumo de corriente.
+
+El sistema debe quedar siempre listo para una nueva opresión de la tecla Tx.
+
+
+1- Realice el diseño de hardware del sistema. 
+2- Realice el diseño completo del software. Utilice como base para TODOS los requerimientos de tiempo del
+sistema la rutina de 10ms vista en clases ( frec_cristal = 8Mhz).
+ 
