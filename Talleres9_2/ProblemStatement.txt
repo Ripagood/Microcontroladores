@@ -1,0 +1,17 @@
+ Semana 9
+ Ejercicios sobre Timers
+ 1- Generar por el pin de puerto PB0 del ATMEGA16 un tren de
+ pulsos que varía su ancho de acuerdo al estado de un interruptor 
+ de la siguiente forma:
+Si el interruptor está en ON el pulso se genera con 20ms en “1” y
+40ms en “0”
+Si el interruptor está en OFF se debe generar un tren de pulsos con 
+30ms en “1” y 10ms en “0”.
+El proceso se repetirá continuamente hasta que se produzca un reset 
+del procesador.
+
+Frecuencia del cristal=8MHz
+
+1.1 Realice el ejercicio utilizando el timer 0 en modo normal.
+1.2 Repita el ejercicio utilizando el timer 0 en modo CTC 
+(Clear time o compare match)

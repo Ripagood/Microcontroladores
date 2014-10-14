@@ -1,0 +1,38 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>Z:\home\ventura\Documents\Talleres\Talleres9_2</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <inicio><FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.asm</FILE><LINE>16</LINE></inicio>
+  <sesenta><FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.asm</FILE><LINE>22</LINE></sesenta>
+  <cuarenta><FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.asm</FILE><LINE>30</LINE></cuarenta>
+  <retardo20ms><FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.asm</FILE><LINE>53</LINE></retardo20ms>
+  <retardo40ms><FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.asm</FILE><LINE>77</LINE></retardo40ms>
+  <retardo30ms><FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.asm</FILE><LINE>68</LINE></retardo30ms>
+  <retardo10msCTC><FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.asm</FILE><LINE>88</LINE></retardo10msCTC>
+  <retardo10ms><FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.asm</FILE><LINE>38</LINE></retardo10ms>
+  <wait10ms><FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.asm</FILE><LINE>43</LINE></wait10ms>
+  <wait20ms><FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.asm</FILE><LINE>58</LINE></wait20ms>
+  <otro30ms><FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.asm</FILE><LINE>71</LINE></otro30ms>
+  <otro40ms><FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.asm</FILE><LINE>80</LINE></otro40ms>
+  <wait10msCTC><FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.asm</FILE><LINE>93</LINE></wait10msCTC>
+  <retardo20msCTC><FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.asm</FILE><LINE>104</LINE></retardo20msCTC>
+  <wait20msCTC><FILE>Z:\home\ventura\Documents\Talleres\Talleres9_2\Talleres9_2.asm</FILE><LINE>109</LINE></wait20msCTC>
+ </LABELS>
+</ASSEMBLER_INFO>
