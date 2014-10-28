@@ -1,0 +1,29 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>Z:\home\ventura\Documents\Talleres\Talleres11</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>Z:\home\ventura\Documents\Talleres\Talleres11\Talleres11.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>Z:\home\ventura\Documents\Talleres\Talleres11\Talleres11.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Z:\home\ventura\Documents\Talleres\Talleres11\Talleres11.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Z:\home\ventura\Documents\Talleres\Talleres11\Talleres11.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>Z:\home\ventura\Documents\Talleres\Talleres11\Talleres11.asm</FILE><LINE>39</LINE></main>
+  <Interrupcion0><FILE>Z:\home\ventura\Documents\Talleres\Talleres11\Talleres11.asm</FILE><LINE>11</LINE></Interrupcion0>
+  <Interrupcion1><FILE>Z:\home\ventura\Documents\Talleres\Talleres11\Talleres11.asm</FILE><LINE>23</LINE></Interrupcion1>
+  <inicio><FILE>Z:\home\ventura\Documents\Talleres\Talleres11\Talleres11.asm</FILE><LINE>56</LINE></inicio>
+  <menor><FILE>Z:\home\ventura\Documents\Talleres\Talleres11\Talleres11.asm</FILE><LINE>62</LINE></menor>
+  <led><FILE>Z:\home\ventura\Documents\Talleres\Talleres11\Talleres11.asm</FILE><LINE>67</LINE></led>
+ </LABELS>
+</ASSEMBLER_INFO>
