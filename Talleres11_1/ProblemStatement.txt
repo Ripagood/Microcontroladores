@@ -1,0 +1,27 @@
+2-) Un sistema basado ATMEGA16 debe controlar el movimiento de un carro que se desplaza por un riel 
+en posición horizontal a partir de una posición central y en ambos sentidos (izquierda  - derecha).
+
+El proceso comienza cuando se recibe una señal de control activa en “0”, que será atendida por 
+interrupción externa. El sistema debe leer por un puerto un valor de 7 bits entre 0 y 127 que 
+representa el número de unidades a desplazar y un bit que indica el sentido del desplazamiento 
+de la siguiente forma:
+
+Bit 7=0 + dato(7bits):  Desplazamiento a la izquierda
+Bit 7=1 +dato( 7bits):  Desplazamiento a la derecha
+
+El movimiento del carro se realiza enviando al carro una cantidad de pulsos igual al valor recibido. 
+Cada pulso a enviar será de 200ms en “0” y 50ms en “1” y se envían  por dos líneas de puertos 
+(izquierda – derecha) según el sentido del movimiento. Cuando se están enviando pulsos por una
+línea la otra debe permanecer en alto.
+
+El sistema dispone además de los siguientes elementos:
+
+1- Un sensor óptico de posición que detecta si el carro está fuera del carril y envía un pulso activo 
+en “0” al procesador el cual será atendido por interrupción externa e implica que el procesador debe 
+detener el movimiento del carro, llevando ambas líneas de control al estado de “1”.
+
+2- Una tecla origen que permite al oprimirse regresar el carro a la posición inicial enviando al mismo 
+por otra línea de puerto, una señal de reinicio  activa en “0”durante 50ms.
+
+Realice el diseño completo del hardware y software del sistema. Utilice los TIMERS para todos los
+requerimientos de tiempo del sistema. Frec-reloj=8Mhz.
