@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12\labels.tmp" -fI -W+ie -C V2E -o "C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12\Talleres12.hex" -d "C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12\Talleres12.obj" -e "C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12\Talleres12.eep" -m "C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12\Talleres12.map" "C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12\Talleres12.asm"

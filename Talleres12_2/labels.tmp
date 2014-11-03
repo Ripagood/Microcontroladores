@@ -1,0 +1,38 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.asm</FILE><LINE>30</LINE></main>
+  <INTERRUPCION_0><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.asm</FILE><LINE>12</LINE></INTERRUPCION_0>
+  <TIMER1_COMPA><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.asm</FILE><LINE>16</LINE></TIMER1_COMPA>
+  <RFSH><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.asm</FILE><LINE>171</LINE></RFSH>
+  <muestraValor><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.asm</FILE><LINE>92</LINE></muestraValor>
+  <salirTimer1><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.asm</FILE><LINE>25</LINE></salirTimer1>
+  <inicio><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.asm</FILE><LINE>73</LINE></inicio>
+  <comparaValor><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.asm</FILE><LINE>120</LINE></comparaValor>
+  <valor1><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.asm</FILE><LINE>135</LINE></valor1>
+  <valor2><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.asm</FILE><LINE>138</LINE></valor2>
+  <valor3><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.asm</FILE><LINE>132</LINE></valor3>
+  <cc><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.asm</FILE><LINE>141</LINE></cc>
+  <display2><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.asm</FILE><LINE>148</LINE></display2>
+  <salirComp><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.asm</FILE><LINE>146</LINE></salirComp>
+  <salir><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_2\Talleres12_2.asm</FILE><LINE>189</LINE></salir>
+ </LABELS>
+</ASSEMBLER_INFO>
