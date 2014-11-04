@@ -1,5 +1,6 @@
 .include "m16def.inc"
-
+// Configuración para visualización de 7 segementos sin decodificador
+// PC0-PC6 para displays, PB0-PB2 para los transistores
   .org 0
   JMP main
 .org 0x02
@@ -39,7 +40,7 @@ main: ldi r16,low(RAMEND)
 	  LDI R16,2
 	  OUT TIMSK,R16       ;Hab. int timer 0
 	  
-	  LDI R16,38          ;cte de tiempo con prescaler=1024
+	  LDI R16,52          ;cte de tiempo con prescaler=1024
 	  OUT OCR0,R16
 
 	  LDI R16,0xD         ;modo CTC, presacaler 1024
@@ -47,7 +48,7 @@ main: ldi r16,low(RAMEND)
 
 	  LDI XL,0x60         ; puntero a ram de display
 	  LDI XH,0
-	  LDI R24,4           ; contador de l?paras
+	  LDI R24,3           ; contador de l?paras
 	  LDI R25,0b11111110  ; c?igo de barrido
 
 	  LDI R16,0x40        ;codigo 7s del 0
@@ -86,6 +87,8 @@ LDI YH, high(0x100)
 LDI YL, low(0x100)
 LDI R18, 50
 
+SBI DDRD, 7 //salida de la valvula
+
 rjmp inicio
 
 
@@ -95,7 +98,7 @@ LDI ZH, high(0x400<<1)
 LDI ZL, low(0x400<<1)
 SUBI ZL, -10
 LPM R16, Z+
-STS 0X60, R16 ;P
+STS 0X62, R16 ;P
 LPM R16, Z+
 STS 0X61, R16; R
 LDI ZH, high(0x400<<1)
@@ -103,7 +106,7 @@ LDI ZL, low(0x400<<1)
 IN R16, PINA; VALOR DE PRESION
 ADD ZL, R16;#
 LPM R16, Z
-STS 0X63, R16
+STS 0X60, R16
 call comparaValor
 pop r18
 ret
@@ -124,10 +127,10 @@ LPM R16, Z+
 LPM R17, Z+
 LPM R18, Z+
 in r21, PINB
-ANDI R21, 0b00000111
-CPI R21, 0
+ANDI R21, 0b11100000//switches en los mas significativos dell puerto B
+CPI R21, 0b10000000
 BREQ valor1
-CPI R21, 1
+CPI R21, 0b01000000
 BREQ valor2
 valor3:
 STS 0x100, r18
@@ -140,10 +143,11 @@ STS 0x100, r17
 rjmp cc
 cc:
 LDS r16, 0x100; valor de referencia
-LDS r17, 0x63; valor medido
+LD R17,Y; valor medido
 CP R17, R16
 BREQ display2
 salirComp:
+CBI PORTD,7
 ret
 display2:
 LDI ZH, high(0x400<<1)
@@ -153,8 +157,8 @@ LPM R16, Z+
 STS 0X60, R16
 LPM R16, Z+; P
 STS 0X61, R16
-SBI PORTB, 7
-rjmp salirComp 
+SBI PORTD, 7
+ret 
 
 
 
