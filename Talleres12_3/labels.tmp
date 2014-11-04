@@ -1,0 +1,58 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>104</LINE></main>
+  <PROCESO><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>24</LINE></PROCESO>
+  <MAS><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>40</LINE></MAS>
+  <MENOS><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>70</LINE></MENOS>
+  <RFSH><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>296</LINE></RFSH>
+  <proceso2><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>33</LINE></proceso2>
+  <proceso1><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>27</LINE></proceso1>
+  <masProceso1><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>58</LINE></masProceso1>
+  <masProceso2><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>44</LINE></masProceso2>
+  <mantiene><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>51</LINE></mantiene>
+  <salirMAS><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>54</LINE></salirMAS>
+  <calcDuty><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>221</LINE></calcDuty>
+  <muestraDuty><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>171</LINE></muestraDuty>
+  <mantiene2><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>65</LINE></mantiene2>
+  <menosProceso1><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>89</LINE></menosProceso1>
+  <menosProceso2><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>74</LINE></menosProceso2>
+  <hold><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>81</LINE></hold>
+  <salirMenos><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>85</LINE></salirMenos>
+  <hold1><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>96</LINE></hold1>
+  <fin><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>169</LINE></fin>
+  <proceso1M><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>181</LINE></proceso1M>
+  <proceso2M><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>175</LINE></proceso2M>
+  <BIN_BCD_1><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>189</LINE></BIN_BCD_1>
+  <exit><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>210</LINE></exit>
+  <otro><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>197</LINE></otro>
+  <incrementaR17><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>201</LINE></incrementaR17>
+  <incrementaR18><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>206</LINE></incrementaR18>
+  <DutyP1><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>239</LINE></DutyP1>
+  <DutyP2><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>225</LINE></DutyP2>
+  <mul16x16_16><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>281</LINE></mul16x16_16>
+  <div16u><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>254</LINE></div16u>
+  <d16u_1><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>263</LINE></d16u_1>
+  <d16u_2><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>268</LINE></d16u_2>
+  <d16u_3><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>277</LINE></d16u_3>
+  <salir><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres12_3\Talleres12_3.asm</FILE><LINE>312</LINE></salir>
+ </LABELS>
+</ASSEMBLER_INFO>
