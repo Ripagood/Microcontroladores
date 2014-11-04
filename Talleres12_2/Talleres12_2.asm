@@ -98,7 +98,7 @@ LDI ZH, high(0x400<<1)
 LDI ZL, low(0x400<<1)
 SUBI ZL, -10
 LPM R16, Z+
-STS 0X62, R16 ;P
+STS 0X60, R16 ;P
 LPM R16, Z+
 STS 0X61, R16; R
 LDI ZH, high(0x400<<1)
@@ -106,7 +106,7 @@ LDI ZL, low(0x400<<1)
 IN R16, PINA; VALOR DE PRESION
 ADD ZL, R16;#
 LPM R16, Z
-STS 0X60, R16
+STS 0X62, R16
 call comparaValor
 pop r18
 ret
