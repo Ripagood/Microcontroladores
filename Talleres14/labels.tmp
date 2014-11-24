@@ -1,0 +1,39 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.asm</FILE><LINE>43</LINE></main>
+  <ms10><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.asm</FILE><LINE>17</LINE></ms10>
+  <RFSH><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.asm</FILE><LINE>159</LINE></RFSH>
+  <exit><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.asm</FILE><LINE>36</LINE></exit>
+  <convierte><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.asm</FILE><LINE>148</LINE></convierte>
+  <BIN_BCD><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.asm</FILE><LINE>180</LINE></BIN_BCD>
+  <inicio><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.asm</FILE><LINE>98</LINE></inicio>
+  <canal1><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.asm</FILE><LINE>138</LINE></canal1>
+  <canal2><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.asm</FILE><LINE>129</LINE></canal2>
+  <canal3><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.asm</FILE><LINE>119</LINE></canal3>
+  <canal4><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.asm</FILE><LINE>107</LINE></canal4>
+  <salir><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.asm</FILE><LINE>175</LINE></salir>
+  <otro><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.asm</FILE><LINE>186</LINE></otro>
+  <INC_BCD><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.asm</FILE><LINE>192</LINE></INC_BCD>
+  <ciclo><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.asm</FILE><LINE>196</LINE></ciclo>
+  <DEC_BIN><FILE>C:\Users\Elias\Documents\AVR ASM Talleres\Talleres14\Talleres14.asm</FILE><LINE>206</LINE></DEC_BIN>
+ </LABELS>
+</ASSEMBLER_INFO>
