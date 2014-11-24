@@ -1,0 +1,65 @@
+.include "m16def.inc"
+
+.org 0
+
+    LDI r16,HIGH(RAMEND)
+    OUT SPH,R16
+    LDI r16,LOW(RAMEND)
+    OUT SPL,R16
+
+    LDI R16,0x0f
+    OUT DDRC,R16         ; PC0-PC3(salidas) PC4-PC7 (entradas)
+ 
+    CALL TECLADO
+	 ;Acción a realizar con el valor que devuelve teclado
+
+     
+	 
+	 
+TECLADO:LDI R17,4            ;cont de filas
+        LDI R18,0xFE         ; código activación de filas
+        LDI R19,3            ;valor mayor 1ra fila
+
+otrafila:OUT PORTC,R18     ; activa filas
+         NOP
+		 IN R16,PINC       ; lee columnas
+		 ANDI R16,0xf0     ; enmascarar filas
+		 CPI R16,0xf0      
+		 BRNE tecla_pres   ;hay tecla oprimida
+
+		 SEC 
+		 ROL r18            ; rotar código de act de filas
+		 SUBI R19,252       ; sumar 4 a valor mayor de fila
+		 DEC R17
+		 BRNE otrafila      ; ver sgte fila
+         LDI R19,0xFF       ; no hubo tecla oprimida
+		 RET
+
+tecla_pres:CALL retardo10ms  ;elimina rebote
+           IN R16,PINC       ; lee columnas
+		   ANDI R16,0xf0     ; enmascarar filas
+		   CPI R16,0xf0      
+		   BRNE tecla
+		   LDI R19,0xFF      ; no hubo tecla oprimida, ruido
+		   RET
+tecla:ROL R16                ; Verificar que columna fue la oprimida
+      BRCC soltar
+	  DEC r19
+	  rjmp tecla
+
+soltar: IN R16,PINC          ; lee columnas
+		ANDI R16,0xf0        ; enmascarar filas
+		CPI R16,0xf0  
+		BRNE soltar
+		call retardo10ms
+		RET
+
+retardo10ms:ldi	r20,104
+     ciclo2:ldi	r21,255
+     ciclo1:dec	r21
+	    	brne	ciclo1
+		    dec	r20
+		    brne	ciclo2
+		    ret
+
+             
